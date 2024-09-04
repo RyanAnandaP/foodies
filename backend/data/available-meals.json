@@ -138,5 +138,40 @@
     "price": "8.99",
     "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
     "image": "images/falafel-wrap.jpg"
+  },
+  {
+    "id": "m21",
+    "name":"Nasi Padang",
+    "price": "10.00",
+    "description": "Nasi Padang is an Indonesian dish from West Sumatra, featuring steamed rice with a variety of spicy and flavorful side dishes like beef rendang and sambal.",
+    "image": "images/nasi-padang.jpeg"
+  },
+  {
+    "id": "m22",
+    "name": "Nasi Uduk",
+    "price":"10.99",
+    "description": "Nasi Uduk is an Indonesian dish made from coconut milk-infused rice, served with fried chicken, tempeh, eggs, and spicy sambal, offering a rich and fragrant flavor.",
+    "image": "images/nasi-uduk.jpeg"
+  },
+  {
+    "id": "m23",
+    "name": "Nasi Kebuli",
+    "price":"14.99",
+    "description": "Nasi Kebuli is an eastern dish made from rice and lamb mixed with fresh veggies.",
+    "image": "images/nasi-kebuli.jpg"
+  },
+  {
+    "id":"m24",
+    "name":"Sate Padang",
+    "price": "30.99",
+    "description": "Sate Padang is a Minangkabau dish of skewered, grilled meat served with a spicy, savory sauce made from traditional spices, often accompanied by rice cakes.",
+    "image": "images/sate-padang.jpg"
+  },
+  {
+    "id": "m25",
+    "name": "Ketoprak",
+    "price": "25.00",
+    "description": "Ketoprak is an Indonesian street food featuring rice noodles, tofu, and vegetables, topped with peanut sauce and crackers.",
+    "image": "images/ketoprak.jpg"
   }
 ]
