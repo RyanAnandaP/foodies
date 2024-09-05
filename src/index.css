@@ -67,6 +67,30 @@ h1 {
   overflow: hidden;
   text-align: center;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+  animation: fade-slide-up .75s ease-in-out;
+}
+
+.success{
+  width: 30%;
+  height: 35%;
+  border-radius: 10px;
+  background-color: #ae8603;
+}
+
+.checklist-image-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  border: none;
+}
+
+.checklist-image-container h2{
+  display: flex;
+  font-size: 2rem;
+  color: whitesmoke;
+  text-align: center;
 }
 
 .meal-item article {
@@ -126,6 +150,7 @@ h1 {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
+  animation: fade-slide-up .75s ease-in-out;
 }
 
 .modal-actions .text-button {
@@ -214,16 +239,18 @@ h1 {
   cursor: pointer;
   background-color: #ffc404;
   border: 1px solid #ffc404;
-  color: #1f1a09;
+  color: black;
+  font-weight: 700;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
 }
 
 .button:hover,
 .button:active {
-  background-color: #ffab04;
+  background-color: #e69a04;
   border-color: #ffab04;
-  color: #1f1a09;
+  color: white;
+  animation: horizontal-shaking .5s ease-in-out;
 }
 
 .text-button {
@@ -265,3 +292,11 @@ h1 {
     transform: translateY(0);
   }
 }
+
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(10px) }
+  50% { transform: translateX(-10px) }
+  75% { transform: translateX(10px) }
+  100% { transform: translateX(0) }
+ }
