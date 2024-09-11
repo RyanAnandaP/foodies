@@ -141,9 +141,9 @@
   },
   {
     "id": "m21",
-    "name": "Sate Padang",
+    "name": "Satay Padang",
     "price": "30.99",
-    "description": "Sate Padang is a Minangkabau dish of skewered, grilled meat served with a spicy, savory sauce made from traditional spices, often accompanied by rice cakes.",
+    "description": "Satay Padang is a Minangkabau dish of skewered, grilled meat served with a spicy, savory sauce made from traditional spices, often accompanied by rice cakes.",
     "image": "images/sate-padang-fix.jpg"
   },
   {
@@ -187,5 +187,26 @@
     "price": "9.99",
     "description": "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
     "image": "images/veggie-burger.jpg"
+  },
+  {
+    "id": "m28",
+    "name": "Satay Maranggi",
+    "price": "25.99",
+    "description": "Satay Maranggi is a flavorful West Javanese skewer dish, typically made from marinated beef or lamb, served with sambal and pickled vegetables instead of peanut sauce.",
+    "image": "images/sate-maranggi.jpg"
+  },
+  {
+    "id": "m29",
+    "name": "Gudeg",
+    "price": "21.99",
+    "description": "Gudeg is a traditional Javanese dish made from young jackfruit stewed in coconut milk, with a sweet and savory flavor. It's often served with rice, chicken, and boiled eggs.",
+    "image": "images/gudeg.jpeg"
+  },
+  {
+    "id": "m30",
+    "name": "Presto Milkfish",
+    "price": "23.99",
+    "description": "Presto Milkfish is a traditional dish from Indonesian combined with delicious ingredients and deep-fried for about 30 minutes.",
+    "image": "images/Bandeng-Presto.jpg"
   }
 ]

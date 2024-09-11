@@ -18,13 +18,15 @@ const MealItem = ({ meal }) => {
     setIsAdded(true);
   };
 
-  const handleCloseModal = () => {
-    setIsAdded(false);
+  const handleCloseModal = (event) => {
+    if(event.target.closest("#modal-success") === null){
+      setIsAdded(false)
+    }
   };
 
   return (
     <>
-      {isAdded && <ModalSuccess open={isAdded} onClose={handleCloseModal} />}
+      {isAdded && <ModalSuccess open={isAdded} onClose={() => handleCloseModal} />}
       <li className="meal-item">
         <article>
           <img src={`http://localhost:3000/${meal.image}`} alt={meal.name} />

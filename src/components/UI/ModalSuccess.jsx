@@ -18,6 +18,7 @@ const ModalSuccess = ({ open, onClose }) => {
       ref={dialog}
       onClose={onClose}
       className="modal success"
+      id="modal-success"
     >
       <div className="checklist-image-container">
         <CheckCircleOutlineIcon

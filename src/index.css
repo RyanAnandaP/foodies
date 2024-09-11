@@ -74,13 +74,14 @@ h1 {
   width: 30%;
   height: 35%;
   border-radius: 10px;
-  background-color: #ae8603;
+  background-color: #ae8603 !important;
 }
 
 .checklist-image-container{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: .5rem;
   margin: 0 auto;
   justify-content: center;
   border: none;
@@ -88,9 +89,10 @@ h1 {
 
 .checklist-image-container h2{
   display: flex;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: whitesmoke;
   text-align: center;
+  font-weight: 450;
 }
 
 .meal-item article {
